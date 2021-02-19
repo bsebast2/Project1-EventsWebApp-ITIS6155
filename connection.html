@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="header">
-        <section class="menu">
-            <header> <h1>Welcome to MusicTogether! </h1></header>
-            <a href="index.html"><img src="images/logo.jpg" alt="Company Logo"  width="30" height="30"></a>
-            <nav>
-                <a href="/newConnection.html">Start a new Lesson!</a>
-                <a href="/newConnection.html">Login</a>
-                <a href="/newConnection.html">Signup</a>
-            </nav>
-        </section>
-
+    <section class="menu"></section>
+    
+    <div class="header-left">
+        <a href="index.html"><img src="images/logo.jpg" alt="Company Logo"  ></a>
+           
+            
     </div>
+    <section class="header-right">
+        <header> <h2>Welcome to MusicTogether! </h2></header>
+        <p>Where you can learn from others and teach others too.</p>
+         
+    </section>
+    <div class="navigation">
+        <nav>
+            <a href="/newConnection.html">Start a new Lesson!</a>
+            <a href="/newConnection.html">Login</a>
+            <a href="/newConnection.html">Signup</a>
+        </nav>
+    </div>
+    </section>
     <p>Filename: connection.html 
         Picture of the connection
         Connection highlights, including category/topic, host user name, time / date, and location 
@@ -27,6 +35,41 @@
         Buttons to update and delete the connection
         “Update” button action should link to the “connections” page 
         “Delete” button action should link to the “connections” page </p>
+        
+        
+
+
+        <div class="connection-title"><h2>Song Name: Rocket Man</h2></div>
+        <div class="connection">
+            
+        <div class="connection-left">
+            
+            <div class="connection-profilePic">
+                <img src="images/profilePic.jpg" alt="Profile Pic" width=150px height=150px >
+            </div>
+            <div class="data">
+                
+                <h2>Hosted by Bentic Sebastian</h2>
+                <p>Type of Instrument: Piano</p>
+                <p>Type of Genre: Pop</p>
+                <p>Artist Name: Elton John</p>
+                <p>Lesson Start Date: Jan 19th,2021</p>
+                <p>Lesson End Date: Dec 20th, 2021</p>
+                <p>Class Average Duration: 45 minutes</p>
+
+            </div>
+        </div>
+        <div class="connection-right">
+            <input type="button" id="connection-update" class=" button update" value="Update" >
+            <input type="button" id="connection-delete" class=" button delete" value="Delete" >
+        </div>
+        
+        
+    </div>
+    <div class="connection-bottom">
+        <h1>Details</h1>
+        <p>This song is a classic, by the great Elton John. Bentic has 12 years of experience studying classical music. The class will go through the main chord progressions, and a step-by-step tutorial of playing this song. </p>
+    </div>
         <section class="footer">
             <div class="right-col">
                 <footer>
@@ -40,7 +83,7 @@
             
             
         </section>
-
+        <script src="javascript/javascript.js"></script>
     </body>
 
 
